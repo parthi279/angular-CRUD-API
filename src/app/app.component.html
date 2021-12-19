@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1> Enter the details</h1>
+<div class="example-form">
+<form [formGroup] = "registrationForm" (ngSubmit)="onSubmit()">
+<label for="userName">Name:</label>
+<input type = "text" formControlName="userName" id="userName" name="userName"/>
+<label for="gender">Gender:</label>
+<input type = "radio" formControlName="gender" id="gender" name="gender" value="Male"/>Male
+<input type = "radio" formControlName="gender" id="gender" name="gender" value="Female"/>Female
+</form>
+</div>
