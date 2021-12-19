@@ -1,7 +1,5 @@
 import { Component, NgModule, VERSION } from '@angular/core';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormControl, FormGroup } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
-import {MatInputModule} from '@angular/material/input';
 
 @Component({
   selector: 'my-app',
